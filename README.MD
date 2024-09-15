@@ -12,6 +12,9 @@
    - `python manage.py migrate <app_label>`
 3. Czy potrzebuje obsługę w CMS (Django Admin)?
    - rejestruje modele w <app_name>/admin.py
-2. Czy potrzebna jest logika? (View)
+4. Czy potrzebuje pobierać dane od użytkownika?
+   - tworze forms.py
+   - tworze klasę formularza
+5. Czy potrzebna jest logika? (View)
     - <app_name>/views.py
-3. Czy potrzebny jest routing?
+6. Czy potrzebny jest routing?
